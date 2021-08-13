@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="MumbleLink-CSharp">
       <HintPath>..\..\MumbleLink-CSharp-GW2\MumbleLink-CSharp-GW2\bin\Debug\MumbleLink-CSharp.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="MumbleLink-CSharp-GW2">
       <HintPath>..\..\MumbleLink-CSharp-GW2\MumbleLink-CSharp-GW2\bin\Debug\MumbleLink-CSharp-GW2.dll</HintPath>

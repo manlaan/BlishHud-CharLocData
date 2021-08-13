@@ -25,13 +25,13 @@ namespace CharLocDataStandalone
 
         public Form1() {
             InitializeComponent();
-            link = new GW2Link();
         }
 
         private void button1_Click(object sender, EventArgs e) {
             running = !running;
             button1.Text = (running ? "running" : "stopped");
             if (running) {
+                link = new GW2Link();
                 th = new Thread(RunThread);
                 th.Start();
             } else {
