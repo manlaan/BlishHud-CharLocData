@@ -9,10 +9,10 @@
   "dependencies": {
     "bh.blishhud": ">=0.5.2"
   },
-  "url": "https://github.com/manla/CharLocData",
+  "url": "https://github.com/manlaan/Blishhud-CharLocData",
   "contributors": [
     {
-      "name": "manla"
+      "name": "manlaan"
     }
   ]
 }
