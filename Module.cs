@@ -56,6 +56,7 @@ namespace CharLocData
                 LocData.Add(
                     new Locs() {
                         Loc = GameService.Gw2Mumble.PlayerCharacter.Position,
+                        Cam = GameService.Gw2Mumble.PlayerCamera.Position,
                         Time = stopWatch.ElapsedMilliseconds
                     }
                     );
@@ -75,9 +76,10 @@ namespace CharLocData
     public class Locs
     {
         public Vector3 Loc { get; set; }
+        public Vector3 Cam { get; set; }
         public long Time { get; set; }
         public string Log {
-            get { return this.Time.ToString() + "," + this.Loc.X + "," + this.Loc.Y + "," + this.Loc.Z; }
+            get { return this.Time.ToString() + "," + this.Loc.X + "," + this.Loc.Y + "," + this.Loc.Z + "," + this.Cam.X + "," + this.Cam.Y + "," + this.Cam.Z; }
         }
     }
 }
