@@ -53,8 +53,6 @@ namespace CharLocData
 
         protected override void Update(GameTime gameTime) {
             try {
-                Vector3 a = GameService.Gw2Mumble.PlayerCharacter.Position;
-                long t = stopWatch.ElapsedMilliseconds;
                 LocData.Add(
                     new Locs() {
                         Loc = GameService.Gw2Mumble.PlayerCharacter.Position,
